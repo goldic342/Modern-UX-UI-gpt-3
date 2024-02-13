@@ -1,6 +1,6 @@
 import React from "react";
 
-import './App.css'
+import "./App.css";
 
 import {
   Footer,
@@ -17,8 +17,10 @@ const App = () => {
   return (
     <div className="App">
       <div className="gradient__bg">
-        <Navbar />
-        <Header />
+        <div className="container">
+          <Navbar />
+          <Header />
+        </div>
       </div>
       <Brand />
       <WhatGPT3 />
